@@ -1,0 +1,428 @@
+/* HTML5 Reset Stylesheet */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/* ////// end css reset //////*/
+
+/* global styles */
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+
+/* banner */
+.bg-image-parallax {
+  height: 951px;
+  background-image: url("../images/Bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* banner END */
+header {
+  position: absolute;
+  width: 100%;
+}
+
+header a {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+
+header a:hover {
+  color: white;
+}
+
+header .logo-image img {
+  margin-right: 8px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.logo-image {
+  margin-top: 56px;
+}
+
+.logo-text {
+  display: inline-block;
+}
+
+.banner-text {
+  transform: translate(0, 200%);
+}
+
+.bg-content {
+  font-size: 12px;
+}
+
+.bg-content .vertical-text .vertic-text-op05 {
+  display: block;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg) translate(-60%, -555px);
+  opacity: 0.5;
+}
+
+.bg-content .vertical-text .vertic-text-op1 {
+  display: block;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg) translate(-60%, -390px);
+  opacity: 1;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+.banner-text .small-banner-text {
+  line-height: 2;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+/* logo animation */
+.logo-text {
+  animation: circle1 5s linear infinite;
+  transform-origin: -39px;
+}
+
+@keyframes circle1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* logo animation END */
+
+/* main text with phone */
+.main-text {
+  color: rgb(149, 149, 149);
+}
+
+.main-text h2 {
+  font-size: 35px;
+  color: black;
+  opacity: 1;
+}
+
+.main-text p {
+  font-size: 14px;
+  color: rgb(149, 149, 149);
+  margin-bottom: 0;
+}
+
+.main-right-text a .phone {
+  margin-top: -690px;
+  margin-left: -67px;
+}
+
+.main-left-text {
+  margin-top: 105px;
+}
+
+.main-left-text h2 {
+  letter-spacing: 1.5px;
+}
+
+.main-left-text p,
+.main-right-text p {
+  line-height: 1.6;
+  width: 570px;
+  letter-spacing: 0.2px;
+}
+
+.main-right-text p {
+  padding-left: 28px;
+}
+
+/* portfolio gallery */
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+}
+
+section .portfolio {
+  margin: 0 auto;
+}
+
+.portfolio .first-row {
+  margin-left: 75px;
+  margin-top: 87px;
+}
+
+.portfolio .text-link-color {
+  color: white;
+}
+
+.text-on-image a {
+  color: white;
+}
+
+.text-on-image a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.images-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.color-overlay1 {
+  background-color: rgb(245, 152, 157);
+}
+
+.color-overlay2 {
+  background-color: rgb(97, 95, 125);
+}
+
+.color-overlay3 {
+  background-color: #bd8cbf;
+}
+
+.gallery-image:hover .images-overlay {
+  width: 100%;
+}
+
+.fa-heart {
+  left: 85%;
+  top: 80%;
+}
+
+.text-on-image h3 {
+  padding-top: 47px;
+  padding-left: 45px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+.text-on-image p {
+  font-size: 13px;
+  text-align: left;
+  padding-left: 45px;
+  padding-bottom: 21px;
+}
+
+.text-on-image .short-text {
+  padding-bottom: 40px;
+}
+
+.text-on-image a {
+  padding-left: 45px;
+}
+
+.portfolio .second-row {
+  margin-left: 75px;
+  margin-top: 0;
+  margin-bottom: 91px;
+}
+
+.color-overlay4 {
+  background-color: #147cb2;
+}
+
+.color-overlay5 {
+  background-color: #82ca9c;
+}
+
+/* Section with details */
+.text-details .vertical-text a {
+  display: block;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg) translate(-60%, -9px);
+  opacity: 0.5;
+}
+
+.bg-image {
+  background-image: url("../images/sec-banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
